@@ -47,10 +47,33 @@ html{
 .shadowtext{
   text-shadow: 2px 2px 4px #000000;
 }
+@keyframes progressanimate90 {
+  from {width:0}
+  to {width: 90%;}
+}
+.animate90{
+  animation-name: progressanimate90;
+  animation-duration: 2s;
+}
+@keyframes progressanimate80 {
+  from {width:0}
+  to {width: 80%;}
+}
+.animate80{
+  animation-name: progressanimate80;
+  animation-duration: 2s;
+}
+@keyframes progressanimate70 {
+  from {width:0}
+  to {width: 70%;}
+}
+.animate70{
+  animation-name: progressanimate70;
+  animation-duration: 2s;
+}
+
 .progress-bar{
   background-color: #6f42c1 !important;
-  animation-name: progressanimate;
-  animation-duration: 2s;
 }
 .progress{
   border-radius: 50px !important;
@@ -68,10 +91,6 @@ html{
 .headingtext{
   font-size: 25px;
   text-align: center;
-}
-@keyframes progressanimate {
-  from {width:0}
-  to {width: 70%;}
 }
 .btn{
   border-radius: 50px !important;
