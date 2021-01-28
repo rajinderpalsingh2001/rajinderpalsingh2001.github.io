@@ -46,8 +46,8 @@
         }
 
         .hidescroll {
-            -ms-overflow-style: none;  /* IE and Edge */
-            scrollbar-width: none;  /* Firefox */
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
         }
 
     </style>
@@ -165,7 +165,9 @@
         <div class="col-sm-5">
             <div class="row">
                 <div class="col-6">
-                    <button type="button" class="btn btn-outline-primary" onclick="$('#hobbies').slideToggle();">Hobbies</button>
+                    <button type="button" class="btn btn-outline-primary" onclick="$('#hobbies').slideToggle();">
+                        Hobbies
+                    </button>
                     <div class="collapse" id="hobbies">
                         <ul>
                             <li>Learn and Apply New Technologies</li>
@@ -233,18 +235,85 @@
 
     </div>
 
+    <div class="headingtext"><span style="font-size: 40px;">E</span>xperiences/<span style="font-size: 40px;">C</span>ertifications
+    </div>
+    <div class="row" id="experiencesandcertifications">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://media-exp1.licdn.com/dms/image/C5622AQExuCDaKPlxgA/feedshare-shrink_800/0/1602921843901?e=1614816000&v=beta&t=IQQqi0-qAFgsXacoIDpn3KfopJ9IGinMnU3ejKGU-JI"
+                     class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">First time Contributed to Open Source in Hacktoberfest 2020 event, and made
+                        Successful Pull Requests</p>
+                    <button type="button" class="btn btn-primary" onclick="$('#hacktoberfestswags').slideToggle()">Swags
+                        Won
+                    </button>
+                    <div class="collapse" id="hacktoberfestswags">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5622AQH-ubaVVkW8nA/feedshare-shrink_800/0/1609239923587?e=1614816000&v=beta&t=aYbXNQsYueTpm19eyp7sjgoGWlu5yPkqd5w7yIUgj9I"
+                             alt="" style="height:200px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://media-exp1.licdn.com/dms/image/C5622AQH5T6xg0u4yfw/feedshare-shrink_800/0/1610467520452?e=1614816000&v=beta&t=5Ptz2BFUXF62JaKc0vVWYMHLiyJsQj8djcMRqZ-BuIs"
+                     class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Contributed to the Frontend of Open Source Pro'ject in Winter of Code(WoC)
+                        2020, and became the Top Contributor at WoC'20</p>
+                    <button type="button" class="btn btn-primary"
+                            onclick="window.open('https://docs.google.com/document/d/1hTOunjhPD1bQRW_mquRqmnMaNJgT2_HDSVoK6GmmiBo/edit?usp=sharing')">
+                        Proposal for WoC'20
+                    </button>
+                    <button type="button" class="btn btn-primary"
+                            onclick="window.open('https://winterofcode.com/2020-student-reports/rajinderpal-singh')">End
+                        Report for Project
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://media-exp1.licdn.com/dms/image/C5622AQHlMqQGKamAKw/feedshare-shrink_800/0/1597899342687?e=1614816000&v=beta&t=jqwQBTiJqs5mC5GC_8dt1xoiJkg958RAS6g_ln3woMw"
+                     class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">As a Campus Ambassador at Abhyuday IIT Bombay</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://user-images.githubusercontent.com/60106112/106179576-3b83ae00-61c1-11eb-864e-268911e9198b.jpg"
+                     class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Cleared HackerRank Python(Basic Skill Test)</p>
+                    <button type="button" class="btn btn-primary" onclick="window.open('https://www.hackerrank.com/certificates/d07b5ae2d747')">Verify</button>
+                </div>
+            </div>
+        </div>
+        <div class="headingtext"><span style="font-size: 40px;">C</span>ource<span style="font-size: 40px;"> C</span>ompletion</div>
+        <div class="col-4">
+
+        </div>
+    </div>
+    <div class="headingtext"><span style="font-size: 40px;">P</span>rojects</div>
     <div class="row" id="projects">
 
     </div>
 
-    <div class="headingtext"><span style="font-size: 40px;">R</span>each <span style="font-size: 40px;">M</span>e <span style="font-size: 40px;">O</span>ut </div>
+
+    <div class="headingtext"><span style="font-size: 40px;">R</span>each <span style="font-size: 40px;">M</span>e <span
+            style="font-size: 40px;">O</span>ut
+    </div>
     <div class="row contactfooter" id="contact">
         <div class="col-6 text-center">
-            <a href="https://github.com/sairish2001/"><i class="fab fa-2x fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/rajinderpal-singh-580445190/"><i class="fab fa-2x fa-linkedin"></i></a>
-            <a href="https://twitter.com/sairish2001"><i class="fab fa-2x fa-twitter"></i></a>
-            <a href="https://www.instagram.com/__sairish__/"><i class="fab fa-2x fa-instagram"></i></a>
-            <a href="https://www.facebook.com/sairishambarsariya"><i class="fab fa-2x fa-facebook"></i></a>
+            <a target="_blank" href="https://github.com/sairish2001/"><i class="fab fa-2x fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/rajinderpal-singh-580445190/"><i
+                    class="fab fa-2x fa-linkedin"></i></a>
+            <a target="_blank" href="https://twitter.com/sairish2001"><i class="fab fa-2x fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/__sairish__/"><i class="fab fa-2x fa-instagram"></i></a>
+            <a target="_blank" href="https://www.facebook.com/sairishambarsariya"><i class="fab fa-2x fa-facebook"></i></a>
         </div>
         <div class="col-6 text-center">
             <a href="mailto:sairish2001@gmail.com"><i class="fa fa-2x fa-envelope"></i>sairish2001@gmail.com</a>
@@ -267,5 +336,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
