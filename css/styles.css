@@ -52,6 +52,9 @@ body{
   font-family: 'Comfortaa', cursive !important;
   /*background-image: url('../images/Untitled-1 copy.png');*/
   background-image: linear-gradient(to right top, #d4d4d4, #d2c6e8, #d8b5f7, #e7a0ff, #fc84ff);
+  background-image: -webkit-linear-gradient(to right top, #d4d4d4, #d2c6e8, #d8b5f7, #e7a0ff, #fc84ff);
+  background-image: -moz-linear-gradient(to right top, #d4d4d4, #d2c6e8, #d8b5f7, #e7a0ff, #fc84ff);
+  background-image: -o-linear-gradient(to right top, #d4d4d4, #d2c6e8, #d8b5f7, #e7a0ff, #fc84ff);
   background-repeat:no-repeat ;
   background-size: cover;
 }
