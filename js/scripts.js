@@ -5,3 +5,14 @@
 //     perspective:500,
 //     transition:true
 // });
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        $('#header').addClass('onscroll');
+        $('#header').removeClass('noscroll');
+    } else {
+        $('#header').addClass('noscroll');
+        $('#header').removeClass('onscroll');
+    }
+}

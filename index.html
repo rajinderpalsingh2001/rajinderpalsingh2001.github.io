@@ -55,38 +55,45 @@
 
 <body id="home">
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-purple sticky-top">
-    <!--    style="background-image: linear-gradient(to right top, #edf0f4, #d4f2ff, #adf7ff, #81fcff, #64ffe6);"-->
-    <a class="navbar-brand" href="#">Rajinderpal Singh</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
+<nav class="fixed-top">
+    <div class="noscroll" id="header">Rajinderpal Singh</div>
+    <a class="nav-link" href="#home"><i class="fa fa-2x fa-home"></i></a>
+    <a class="nav-link" href="#skills">Skills</a>
+    <a class="nav-link" href="#about">About</a>
+    <a class="nav-link" href="#contact">Contact</a>
 </nav>
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-purple sticky-top">-->
+<!--    &lt;!&ndash;    style="background-image: linear-gradient(to right top, #edf0f4, #d4f2ff, #adf7ff, #81fcff, #64ffe6);"&ndash;&gt;-->
+<!--    <a class="navbar-brand" href="#">Rajinderpal Singh</a>-->
+<!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"-->
+<!--            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--        <span class="navbar-toggler-icon"></span>-->
+<!--    </button>-->
+<!--    <div class="collapse navbar-collapse" id="navbarNav">-->
+<!--        <ul class="navbar-nav">-->
+<!--            <li class="nav-item active">-->
+<!--                <a class="nav-link" href="#home"><i class="fa fa-2x fa-home"></i></a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#skills">Skills</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#about">About</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#contact">Contact</a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</nav>-->
 <div class="container">
     <div class="row">
         <div class="bannerbackground">
             <img class="img-fluid bannerimage" src="images/banner.png" alt="">
         </div>
     </div>
-    <div class="headingtext"><span style="font-size: 40px;">S</span>kills</div>
-    <div class="row" id="skills">
+    <div class="headingtext" id="skills"><span style="font-size: 40px;">S</span>kills</div>
+    <div class="row">
         <div class="col-sm-4" style="padding:10px;">
             Python
             <div class="progress">
@@ -163,8 +170,8 @@
         </div>
     </div>
 
-    <div class="headingtext"><span style="font-size: 40px;">A</span>bout</div>
-    <div class="row" id="about">
+    <div class="headingtext" id="about"><span style="font-size: 40px;">A</span>bout</div>
+    <div class="row">
         <div class="col-md-7 text-center">
             Energetic B.Tech student pursuing from Guru Nanak Dev University,Amritsar majoring in Computer Engineering
             and Technology eager to apply extensive knowledge of Python (Core+Advanced),C++,Web Development
@@ -224,9 +231,10 @@
 
     </div>
 
-    <div class="headingtext"><span style="font-size: 40px;">E</span>xperiences/<span style="font-size: 40px;">C</span>ertifications
+    <div class="headingtext" id="experiencesandcertifications"><span style="font-size: 40px;">E</span>xperiences/<span
+            style="font-size: 40px;">C</span>ertifications
     </div>
-    <div class="row justify-content-center" id="experiencesandcertifications">
+    <div class="row justify-content-center">
         <div class="col-lg-4">
             <div class="card mx-auto" style="width: 18rem;">
                 <img src="https://media-exp1.licdn.com/dms/image/C5622AQExuCDaKPlxgA/feedshare-shrink_800/0/1602921843901?e=1614816000&v=beta&t=IQQqi0-qAFgsXacoIDpn3KfopJ9IGinMnU3ejKGU-JI"
@@ -277,25 +285,87 @@
                      class="card-img-top" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text">Cleared HackerRank Python(Basic Skill Test)</p>
-                    <button type="button" class="btn btn-primary" onclick="window.open('https://www.hackerrank.com/certificates/d07b5ae2d747')">Verify</button>
+                    <button type="button" class="btn btn-primary"
+                            onclick="window.open('https://www.hackerrank.com/certificates/d07b5ae2d747')">Verify
+                    </button>
                 </div>
             </div>
         </div>
-        <div class="headingtext"><span style="font-size: 40px;">C</span>ourse<span style="font-size: 40px;"> C</span>ompletion</div>
+        <div class="headingtext"><span style="font-size: 40px;">C</span>ourse<span style="font-size: 40px;"> C</span>ompletion
+        </div>
         <div class="col-lg-4">
 
         </div>
     </div>
     <div class="headingtext"><span style="font-size: 40px;">P</span>rojects</div>
-    <div class="row" id="projects">
+    <button class="btn btn-outline-primary">Python+SQL</button>
+    <div class="row justify-content-center" id="projects">
+        <div id="pythonprojeccts">
+            <div class="col-lg-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="https://user-images.githubusercontent.com/60106112/106362884-4702e080-634b-11eb-9881-ba65a90f4fa1.gif"
+                         class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="highlight" style="padding: 5px;">Snake Game</div>
+                        <p class="card-text">Using pygame module and SQL Backend for storing High Score</p>
+                        <div class="projectdate">November,2019</div>
+                        <a class="btn btn-secondary" href="https://github.com/sairish2001/Snake-Game-using-Python"
+                           target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-lg-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="https://user-images.githubusercontent.com/60106112/106362884-4702e080-634b-11eb-9881-ba65a90f4fa1.gif"
+                         class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="highlight" style="padding: 5px;">Login/SignUp Setup</div>
+                        <p class="card-text">
+                        <ol>
+                        <li>GUI using tkinter module</li>
+                        <li>SQL Backend</li>
+                        <li>OTP Verification after Account Creation through E-mail</li>
+                        <li>Send Friend Requests</li>
+                        <li>Many More</li>
+                        </ol>
+                        <div class="projectdate">February-March,2020</div>
+                        <a class="btn btn-secondary" href="https://github.com/sairish2001/Snake-Game-using-Python"
+                           target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cppprojeccts">
+            <div class="col-lg-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="https://user-images.githubusercontent.com/60106112/106363902-60a72680-6351-11eb-98a6-1e218e94c3d4.gif"
+                         class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="highlight" style="padding: 5px;">My Shop Management</div>
+                        <p class="card-text">Using Object Oriented Programming and File Handling as Backend</p>
+                        <div class="projectdate">January,2020</div>
+                        <a class="btn btn-secondary" href="https://github.com/sairish2001/My-Shop-Management"
+                           target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
-    <div class="headingtext"><span style="font-size: 40px;">R</span>each <span style="font-size: 40px;">M</span>e <span
+    <div class="headingtext" id="contact"><span style="font-size: 40px;">R</span>each <span
+            style="font-size: 40px;">M</span>e <span
             style="font-size: 40px;">O</span>ut
     </div>
-    <div class="row contactfooter" id="contact">
+    <div class="row contactfooter">
         <div class="col-sm-6 text-center">
             <a target="_blank" href="https://github.com/sairish2001/"><i class="fab fa-2x fa-github"></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/rajinderpal-singh-580445190/"><i
