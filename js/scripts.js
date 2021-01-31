@@ -20,9 +20,19 @@ function showprojects(id) {
     var elid=['#pythonprojects','#cppprojects','#htmlcssjsprojects','#djangoprojects'];
     for(i of elid){
         if(i==id){
-            $(String(i)).fadeIn();
+            $(String(i)).fadeToggle();
         }else{
             $(String(i)).fadeOut();
         }
     }
+}
+$(".toggleMenu").on('click', function(){
+    $("#mainMenu").toggleClass('open');
+});
+
+$(".container").on('click', function(){
+    $("#mainMenu").removeClass('open');
+});
+function togglecloseafterclick() {
+    $("#mainMenu").toggleClass('open');
 }
