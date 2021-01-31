@@ -297,17 +297,31 @@
 
         </div>
     </div>
-    <div class="headingtext"><span style="font-size: 40px;">P</span>rojects</div>
-    <button class="btn btn-outline-primary">Python+SQL</button>
-    <div class="row justify-content-center" id="projects">
-        <div id="pythonprojeccts">
+    <div class="headingtext" id="projects"><span style="font-size: 40px;">P</span>rojects</div>
+    <div class="row justify-content-center form-group">
+        <div onclick="showprojects('#pythonprojects')" class="btn btn-outline-dark"><img class="btntechlogo" src="images/techlogos/python.png" alt="Python">+<img class="btntechlogo" src="images/techlogos/sql.png" alt="SQL"></div>
+        <div onclick="showprojects('#cppprojects')" class="btn btn-outline-dark"><img src="images/techlogos/c++.png" alt="C++" class="btntechlogo"></div>
+        <div onclick="showprojects('#htmlcssjsprojects')" class="btn btn-outline-dark"><img src="images/techlogos/html.png" alt="HTML" class="btntechlogo">+<img src="images/techlogos/css.png" alt="CSS" class="btntechlogo">+<img src="images/techlogos/JavaScript.png" alt="Js" class="btntechlogo"></div>
+        <div onclick="showprojects('#djangoprojects')" class="btn btn-outline-dark"><img src="images/techlogos/django.png" alt="Django" class="btntechlogo"></div>
+    </div>
+
+<!--projects-->
+    <div class="collapse" id="pythonprojects">
+        <div class="row justify-content-center">
+            <!--snake game-->
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
                     <img src="https://user-images.githubusercontent.com/60106112/106362884-4702e080-634b-11eb-9881-ba65a90f4fa1.gif"
                          class="card-img-top" alt="Card image cap">
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">Snake Game</div>
-                        <p class="card-text">Using pygame module and SQL Backend for storing High Score</p>
+                        <p class="card-text">
+                        <ol>
+                            <li>pygame module</li>
+                            <li>OOP</li>
+                            <li>SQL Backend for maintaining HighScore</li>
+                        </ol>
+                        </p>
                         <div class="projectdate">November,2019</div>
                         <a class="btn btn-secondary" href="https://github.com/sairish2001/Snake-Game-using-Python"
                            target="_blank">
@@ -316,32 +330,94 @@
                     </div>
                 </div>
             </div>
+            <!--snake game-->
 
+            <!--login signup setup-->
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="https://user-images.githubusercontent.com/60106112/106362884-4702e080-634b-11eb-9881-ba65a90f4fa1.gif"
-                         class="card-img-top" alt="Card image cap">
+                    <video controls class="card-img-top">
+                        <source src="https://user-images.githubusercontent.com/60106112/106384647-f2ff0700-63f1-11eb-82af-5cd3f843ad00.mp4"
+                                type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">Login/SignUp Setup</div>
                         <p class="card-text">
                         <ol>
-                        <li>GUI using tkinter module</li>
-                        <li>SQL Backend</li>
-                        <li>OTP Verification after Account Creation through E-mail</li>
-                        <li>Send Friend Requests</li>
-                        <li>Many More</li>
+                            <li>GUI using tkinter module</li>
+                            <li>OOP</li>
+                            <li>SQL Backend</li>
+                            <li>OTP Verification after Account Creation through E-mail</li>
+                            <li>Send Friend Requests</li>
+                            <li>Many More</li>
                         </ol>
                         <div class="projectdate">February-March,2020</div>
-                        <a class="btn btn-secondary" href="https://github.com/sairish2001/Snake-Game-using-Python"
+                        <a class="btn btn-secondary" href="https://github.com/sairish2001/Login-Signup-Setup"
                            target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
+            <!--login signup setup-->
 
-        <div id="cppprojeccts">
+            <!--tic tac toe-->
+            <div class="col-lg-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <video controls class="card-img-top">
+                        <source src="https://user-images.githubusercontent.com/60106112/106386217-f39b9b80-63f9-11eb-95b3-ea9b9bdc226d.mp4"
+                                type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body">
+                        <div class="highlight" style="padding: 5px;">TIC-TAC-TOE</div>
+                        <p class="card-text">
+                        <ol>
+                            <li>GUI using tkinter module</li>
+                            <li>OOP</li>
+                        </ol>
+                        <div class="projectdate">May,2020</div>
+                        <a class="btn btn-secondary" href="https://github.com/sairish2001/TIC-TAC-TOE-in-Python"
+                           target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--tic tac toe-->
+
+            <!--Scientific Calculator-->
+            <div class="col-lg-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <video controls class="card-img-top">
+                        <source src="https://user-images.githubusercontent.com/60106112/106387270-0b295300-63ff-11eb-8288-f472c8569be8.mp4"
+                                type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body">
+                        <div class="highlight" style="padding: 5px;">Scientific Calculator</div>
+                        <p class="card-text">
+                        <ol>
+                            <li>GUI using tkinter module</li>
+                            <li>OOP</li>
+                            <li>Some Intelligence Working,Checks</li>
+                            <li>General Operations</li>
+                            <li>Trignometry + Inverse(Degree and Radians)</li>
+                        </ol>
+                        <div class="projectdate">May,2020</div>
+                        <a class="btn btn-secondary" href="https://github.com/sairish2001/Scientific-Calculator"
+                           target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Scientific Calculator-->
+        </div>
+    </div>
+
+    <div class="collapse" id="cppprojects">
+        <div class="row justify-content-center">
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
                     <img src="https://user-images.githubusercontent.com/60106112/106363902-60a72680-6351-11eb-98a6-1e218e94c3d4.gif"
@@ -360,7 +436,131 @@
         </div>
     </div>
 
+    <div class="collapse" id="htmlcssjsprojects">
+        <div class="row justify-content-center">
+            <!--        tic tac toe-->
+            <div class="col-lg-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <video controls class="card-img-top">
+                        <source src="https://user-images.githubusercontent.com/60106112/106387578-5d1ea880-6400-11eb-9e09-612025575b2d.mp4"
+                                type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body">
+                        <div class="highlight" style="padding: 5px;">TIC-TAC-TOE</div>
+                        <p class="card-text">
+                        <ol>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                        </ol>
+                        <div class="projectdate">June,2020</div>
+                        <a class="btn btn-secondary" href="https://github.com/sairish2001/TIC-TAC-TOE-using-JavaScript"
+                           target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--        tic tac toe-->
 
+            <!--        makes math easy-->
+            <div class="col-lg-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <video controls class="card-img-top">
+                        <source src="https://user-images.githubusercontent.com/60106112/106388700-c6ed8100-6405-11eb-9ca2-a872eae89d4d.mp4"
+                                type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body">
+                        <div class="highlight" style="padding: 5px;">Makes Math Easy</div>
+                        <p class="card-text">
+                        <ol>
+                            <li>Step By Step Solutions for Various Maths Problems</li>
+                            <li>Scripted in JavaScript</li>
+                            <li>Used Nerdamer Library</li>
+                            <li>KaTex for Displaying Maths</li>
+                            <li>Bootstrap</li>
+                        </ol>
+                        <div class="projectdate">July,2020 <span class="badge badge-danger">Working</span></div>
+                        <a class="btn btn-secondary" href="https://github.com/sairish2001/makesmatheasy.github.io"
+                           target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--        makes math easy-->
+
+            <!--        iwasat-->
+            <div class="col-lg-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <video controls class="card-img-top">
+                        <source src=""
+                                type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body">
+                        <div class="highlight" style="padding: 5px;">iWasAt</div>
+                        <p class="card-text">
+                        <ol>
+                            <li>Contributed in Winter of Code Event</li>
+                            <li>Bootstrap</li>
+                        </ol>
+                        <div class="projectdate">December,2020 - January,2021</div>
+                        <a class="btn btn-secondary" href="https://github.com/sairish2001/omg-frames"
+                           target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--        iwasat-->
+        </div>
+    </div>
+
+    <div class="collapse" id="djangoprojects">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <video controls class="card-img-top">
+                        <source src=""
+                                type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body">
+                        <div class="highlight" style="padding: 5px;">Shopping Website</div>
+                        <p class="card-text">
+                        <ol>
+
+                            <li>
+                                Admin:
+                                <ul>
+                                    <li>Add, Delete, Edit Products</li>
+                                    <li>Manage Shipping and Payments</li>
+                                </ul>
+                            </li>
+                            <li>
+                                User:
+                                <ul>
+                                    <li>View, Buy Products</li>
+                                    <li>Add to Cart, make Payment</li>
+                                </ul>
+                            </li>
+
+
+                        </ol>
+                        <div class="projectdate">July,2020 - August,2021</div>
+                        <a class="btn btn-secondary" href=""
+                           target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--projects-->
     <div class="headingtext" id="contact"><span style="font-size: 40px;">R</span>each <span
             style="font-size: 40px;">M</span>e <span
             style="font-size: 40px;">O</span>ut

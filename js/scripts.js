@@ -16,3 +16,13 @@ function scrollFunction() {
         $('#header').removeClass('onscroll');
     }
 }
+function showprojects(id) {
+    var elid=['#pythonprojects','#cppprojects','#htmlcssjsprojects','#djangoprojects'];
+    for(i of elid){
+        if(i==id){
+            $(String(i)).fadeIn();
+        }else{
+            $(String(i)).fadeOut();
+        }
+    }
+}
