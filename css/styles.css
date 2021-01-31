@@ -43,7 +43,7 @@
 
 body {
     font-family: fontregular;
-    background-image: url('../images/background2.jpg');
+    background-image: url('../images/background.jpg');
 
     /*background-image: linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
     /*background-image: -webkit-linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
@@ -125,7 +125,7 @@ html {
 }
 
 .progress-bar {
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background.jpg");
 }
 
 .progress {
@@ -213,7 +213,7 @@ html {
 }
 
 .highlight {
-    background: url('../images/brushstroke2.png');
+    background: url('../images/brushstroke.png');
     background-repeat: no-repeat;
     background-size: 100% 95%;
     padding: 8px 0;
