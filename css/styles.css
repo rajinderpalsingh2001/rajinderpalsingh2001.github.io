@@ -126,7 +126,6 @@ html {
 
 .progress-bar {
     background-image: url("../images/background2.jpg");
-    filter:invert(100%);
 }
 
 .progress {
@@ -136,9 +135,22 @@ html {
 
 
 .headingtext {
-    font-size: 20px;
+    font-size: 30px;
+    font-family: fontitalic;
     text-align: center;
     color: #f3f2b6 !important;
+}
+.headingtext span{
+    font-family: fontbolditalic;
+    font-size: 50px;
+}
+.card-text{
+    font-family: fontregular;
+    letter-spacing: 2px;
+}
+.card-text ol li{
+    font-family: fontregular;
+    letter-spacing: 2px;
 }
 
 .btn {
@@ -159,14 +171,6 @@ html {
     100% {
         background-position: 0% 50%;
     }
-}
-
-.bannerimage {
-
-}
-
-.bannerbackground {
-
 }
 
 @media (max-width: 576px) {
