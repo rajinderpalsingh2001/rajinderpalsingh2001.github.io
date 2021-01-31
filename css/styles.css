@@ -144,19 +144,26 @@ html {
     font-family: fontbolditalic;
     font-size: 50px;
 }
-.card-text{
-    font-family: fontregular;
-    letter-spacing: 2px;
-}
-.card-text ol li{
+.card-text,body{
     font-family: fontregular;
     letter-spacing: 2px;
 }
 
 .btn {
     border-radius: 50px !important;
+    font-family: fontbold;
 }
-
+.btn-lightyellow{
+    background-color: #f3f2b6;
+    border-color: #f3f2b6;
+    transition: 0.4s;
+}
+.btn-lightyellow:hover{
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #f3f2b6;
+    transition: 0.4s;
+}
 .contactfooter div a:hover {
     filter: drop-shadow(0 0 2px #101010);
 }
