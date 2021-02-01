@@ -43,7 +43,7 @@
 
 body {
     font-family: fontregular;
-    background-image: url('../images/background.jpg');
+    /*background-image: url('../images/background.jpg');*/
 
     /*background-image: linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
     /*background-image: -webkit-linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
@@ -57,6 +57,7 @@ body {
 
 .container {
     margin-top: 50px;
+    margin-bottom: 10px;
     border-radius: 50px;
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.1);
@@ -216,11 +217,20 @@ html {
     height: 30px;
     transition: 0.4s;
 }
-.btn-outline-dark:hover,.btn-outline-dark:active{
-    border-bottom: 2px solid #f3f2b6 !important;
+.btn-outline-dark{
+    border:2px solid #f3f2b6 !important;
+    transition: 0.4s;
 }
-div[selected]{
+.btn-outline-dark:hover,.btn-outline-dark:active{
+    border: 0 solid black !important;
     border-bottom: 2px solid #f3f2b6 !important;
+    transition: 0.4s;
+}
+
+div[selected]{
+    border: 0 solid black !important;
+    border-bottom: 2px solid #f3f2b6 !important;
+    transition: 0.4s;
 }
 
 .menubtnback {
@@ -234,9 +244,10 @@ div[selected]{
 
 }
 .contactfooter a{
-    color: #343a40!important;
+    color: #f3f2b6!important;
 }
 .contactfooter a:hover{
-    color: #f3f2b6!important;
+    background: #f3f2b6!important;
+    color: #343a40 !important;
 }
 
