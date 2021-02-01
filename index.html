@@ -164,10 +164,10 @@
     <div class="headingtext" id="about"><span>A</span>bout</div>
 
     <div class="row">
-        <div class="col-md-7 text-center" >
-            Energetic B.Tech student pursuing from Guru Nanak Dev University,Amritsar majoring in Computer Engineering
-            and Technology eager to apply extensive knowledge of Python (Core+Advanced),C++,Web Development
-            ,with extensive knowledge of Algorithms to achieve company goals.Dedicated to working hard to make positive
+        <div class="col-md-7 text-center">
+            <span style="text-align: left !important;">Hello!</span><br>
+            I am Rajinderpal Singh a B.Tech student from Guru Nanak Dev University,Amritsar majoring in Computer Engineering
+            and Technology eager to apply extensive Knowledge/Skill of Development and Problem Solving to achieve company goals.Dedicated to working hard to make positive
             contributions.
         </div>
         <div class="col-md-5">
@@ -233,7 +233,8 @@
                 <div class="card-body">
                     <p class="card-text">First time Contributed to Open Source in Hacktoberfest 2020 event, and made
                         Successful Pull Requests</p>
-                    <button type="button" class="btn btn-lightyellow" onclick="$('#hacktoberfestswags').slideToggle()">Swags
+                    <button type="button" class="btn btn-lightyellow" onclick="$('#hacktoberfestswags').slideToggle()">
+                        Swags
                         Won
                     </button>
                     <div class="collapse" id="hacktoberfestswags">
@@ -290,18 +291,20 @@
     </div>
     <div class="headingtext" id="projects"><span>P</span>rojects</div>
     <div class="row justify-content-center form-group">
-        <div onclick="showprojects('#pythonprojects')" class="btn btn-outline-dark"><img class="btntechlogo"
-                                                                                         src="images/techlogos/python.png"
-                                                                                         alt="Python">+<img
+        <div id="ppbtn" onclick="showprojects('#pythonprojects','ppbtn');" class="btn btn-outline-dark"><img
+                class="btntechlogo"
+                src="images/techlogos/python.png"
+                alt="Python">+<img
                 class="btntechlogo" src="images/techlogos/sql.png" alt="SQL"></div>
-        <div onclick="showprojects('#cppprojects')" class="btn btn-outline-dark"><img src="images/techlogos/c++.png"
-                                                                                      alt="C++" class="btntechlogo">
+        <div id="cpppbtn" onclick="showprojects('#cppprojects','cpppbtn');" class="btn btn-outline-dark"><img
+                src="images/techlogos/c++.png"
+                alt="C++" class="btntechlogo">
         </div>
-        <div onclick="showprojects('#htmlcssjsprojects')" class="btn btn-outline-dark"><img
+        <div id="hcjpbtn" onclick="showprojects('#htmlcssjsprojects','hcjpbtn');" class="btn btn-outline-dark"><img
                 src="images/techlogos/html.png" alt="HTML" class="btntechlogo">+<img src="images/techlogos/css.png"
                                                                                      alt="CSS" class="btntechlogo">+<img
                 src="images/techlogos/JavaScript.png" alt="Js" class="btntechlogo"></div>
-        <div onclick="showprojects('#djangoprojects')" class="btn btn-outline-dark"><img
+        <div id="dpbtn" onclick="showprojects('#djangoprojects','dpbtn');" class="btn btn-outline-dark"><img
                 src="images/techlogos/django.png" alt="Django" class="btntechlogo"></div>
     </div>
 
@@ -311,8 +314,8 @@
             <!--snake game-->
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="https://user-images.githubusercontent.com/60106112/106362884-4702e080-634b-11eb-9881-ba65a90f4fa1.gif"
-                         class="card-img-top" alt="Card image cap">
+                    <img src="images/youtubeperview.jpg" class="card-img-top" alt="Card image cap"
+                         onclick="window.open('https://user-images.githubusercontent.com/60106112/106362884-4702e080-634b-11eb-9881-ba65a90f4fa1.gif');">
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">Snake Game</div>
                         <p class="card-text">
@@ -335,11 +338,8 @@
             <!--login signup setup-->
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <video controls class="card-img-top">
-                        <source src="https://user-images.githubusercontent.com/60106112/106384647-f2ff0700-63f1-11eb-82af-5cd3f843ad00.mp4"
-                                type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <img src="images/youtubeperview.jpg" class="card-img-top" alt="Card image cap"
+                         onclick="window.open('https://user-images.githubusercontent.com/60106112/106384647-f2ff0700-63f1-11eb-82af-5cd3f843ad00.mp4');">
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">Login/SignUp Setup</div>
                         <p class="card-text">
@@ -364,11 +364,9 @@
             <!--tic tac toe-->
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <video controls class="card-img-top">
-                        <source src="https://user-images.githubusercontent.com/60106112/106386217-f39b9b80-63f9-11eb-95b3-ea9b9bdc226d.mp4"
-                                type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <img src="images/youtubeperview.jpg" class="card-img-top" alt="Card image cap"
+                         onclick="window.open('https://user-images.githubusercontent.com/60106112/106386217-f39b9b80-63f9-11eb-95b3-ea9b9bdc226d.mp4');">
+
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">TIC-TAC-TOE</div>
                         <p class="card-text">
@@ -389,11 +387,8 @@
             <!--Scientific Calculator-->
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <video controls class="card-img-top">
-                        <source src="https://user-images.githubusercontent.com/60106112/106387270-0b295300-63ff-11eb-8288-f472c8569be8.mp4"
-                                type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <img src="images/youtubeperview.jpg" class="card-img-top" alt="Card image cap"
+                         onclick="window.open('https://user-images.githubusercontent.com/60106112/106387270-0b295300-63ff-11eb-8288-f472c8569be8.mp4');">
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">Scientific Calculator</div>
                         <p class="card-text">
@@ -420,8 +415,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="https://user-images.githubusercontent.com/60106112/106363902-60a72680-6351-11eb-98a6-1e218e94c3d4.gif"
-                         class="card-img-top" alt="Card image cap">
+                    <img src="images/youtubeperview.jpg" class="card-img-top" alt="Card image cap"
+                         onclick="window.open('https://user-images.githubusercontent.com/60106112/106363902-60a72680-6351-11eb-98a6-1e218e94c3d4.gif');">
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">My Shop Management</div>
                         <p class="card-text">Using Object Oriented Programming and File Handling as Backend</p>
@@ -441,11 +436,9 @@
             <!--        tic tac toe-->
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <video controls class="card-img-top">
-                        <source src="https://user-images.githubusercontent.com/60106112/106387578-5d1ea880-6400-11eb-9e09-612025575b2d.mp4"
-                                type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <img src="images/youtubeperview.jpg" class="card-img-top" alt="Card image cap"
+                         onclick="window.open('https://user-images.githubusercontent.com/60106112/106387578-5d1ea880-6400-11eb-9e09-612025575b2d.mp4');">
+
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">TIC-TAC-TOE</div>
                         <p class="card-text">
@@ -466,11 +459,9 @@
             <!--        makes math easy-->
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <video controls class="card-img-top">
-                        <source src="https://user-images.githubusercontent.com/60106112/106388700-c6ed8100-6405-11eb-9ca2-a872eae89d4d.mp4"
-                                type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <img src="images/youtubeperview.jpg" class="card-img-top" alt="Card image cap"
+                         onclick="window.open('https://user-images.githubusercontent.com/60106112/106388700-c6ed8100-6405-11eb-9ca2-a872eae89d4d.mp4');">
+
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">Makes Math Easy</div>
                         <p class="card-text">
@@ -494,11 +485,7 @@
             <!--        iwasat-->
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <video controls class="card-img-top">
-                        <source src=""
-                                type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <img src="images/youtubeperview.jpg" class="card-img-top" alt="Card image cap">
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">iWasAt</div>
                         <p class="card-text">
@@ -522,11 +509,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <video controls class="card-img-top">
-                        <source src=""
-                                type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <img src="images/youtubeperview.jpg" class="card-img-top" alt="Card image cap">
                     <div class="card-body">
                         <div class="highlight" style="padding: 5px;">Shopping Website</div>
                         <p class="card-text">
@@ -562,24 +545,18 @@
 
     <!--projects-->
     <div class="headingtext" id="contact"><span>R</span>each <span
-    >M</span>e <span
-    >O</span>ut
+    >M</span>e <span>O</span>ut
     </div>
-    <div class="row contactfooter">
-        <div class="col-sm-6 text-center">
-            <a target="_blank" href="https://github.com/sairish2001/"><i class="fab fa-2x fa-github"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/rajinderpal-singh-580445190/"><i
-                    class="fab fa-2x fa-linkedin"></i></a>
-            <a target="_blank" href="https://twitter.com/sairish2001"><i class="fab fa-2x fa-twitter"></i></a>
-            <a target="_blank" href="https://www.instagram.com/__sairish__/"><i class="fab fa-2x fa-instagram"></i></a>
-            <a target="_blank" href="https://www.facebook.com/sairishambarsariya"><i class="fab fa-2x fa-facebook"></i></a>
-        </div>
-        <div class="col-sm-6 text-center">
-            <a href="mailto:sairish2001@gmail.com"><i class="fa fa-2x fa-envelope"></i>sairish2001@gmail.com</a>
-            <a href="tel:+917508881284"><i class="fa fa-2x fa-phone"></i>+91-7508881284</a>
-        </div>
-    </div>
+    <div class="text-center">My inbox is always open!</div>
 
+    <div class="row justify-content-center contactfooter">
+        <a class="btn btn-lightyellow" target="_blank" href="https://github.com/sairish2001/"><i class="fab fa-2x fa-github"></i></a>
+        <a class="btn btn-lightyellow" target="_blank" href="https://www.linkedin.com/in/rajinderpal-singh-580445190/"><i class="fab fa-2x fa-linkedin"></i></a>
+        <a class="btn btn-lightyellow" target="_blank" href="https://twitter.com/sairish2001"><i class="fab fa-2x fa-twitter"></i></a>
+        <a class="btn btn-lightyellow" target="_blank" href="https://www.instagram.com/__sairish__/"><i class="fab fa-2x fa-instagram"></i></a>
+        <a class="btn btn-lightyellow" target="_blank" href="https://www.facebook.com/sairishambarsariya"><i class="fab fa-2x fa-facebook"></i></a>
+        <a class="btn btn-lightyellow" href="mailto:sairish2001@gmail.com"><i class="fa fa-2x fa-envelope"></i></a>
+    </div>
 </div>
 
 <footer>

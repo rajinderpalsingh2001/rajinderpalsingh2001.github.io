@@ -5,7 +5,7 @@ body{background-color: rgba(218, 245, 255, 0.97);font-family: 'Oswald', sans-ser
     background-color: rgba(243, 242, 182,0.5);
     position: fixed;left: 0;right: 0;bottom: -420px;z-index: 999;
     height: 420px;
-    box-shadow: 0 0 15px -3px #03374A;
+    /*box-shadow: 0 0 15px -3px #03374A;*/
     border-radius: 100% 100% 0 0 / 14% 14% 0 0;
     -webkit-transition: bottom 0.5s ease; transition: bottom 0.5s ease;
 }
@@ -21,7 +21,7 @@ body{background-color: rgba(218, 245, 255, 0.97);font-family: 'Oswald', sans-ser
     margin: -31px 0 0 -31px;
     cursor: pointer;
     font-size:24px; color:#FFF; text-align:center; line-height:62px;
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2) inset, 0 0 16px -4px #063343;
+    /*box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2) inset, 0 0 16px -4px #063343;*/
     -webkit-transition: box-shadow 0.5s ease, top 0.5s ease; transition: box-shadow 0.5s ease, top 0.5s ease;
 }
 

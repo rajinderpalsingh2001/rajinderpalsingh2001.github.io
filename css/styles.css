@@ -68,20 +68,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.bg-purple {
-    background: #6f42c1;
-}
-
-.navbar {
-    border-radius: 0 0 0 30px;
-}
-
-#maintop {
-    color: #f8f9fa;
-    background: #6f42c1;
-}
-
-
 @keyframes progressanimate90 {
     from {
         width: 0
@@ -164,9 +150,6 @@ html {
     color: #f3f2b6;
     transition: 0.4s;
 }
-.contactfooter div a:hover {
-    filter: drop-shadow(0 0 2px #101010);
-}
 
 @keyframes backgroundbanner {
     0% {
@@ -227,18 +210,30 @@ html {
 }
 
 .btntechlogo {
-    height: 20px;
+    height: 30px;
+    transition: 0.4s;
 }
-
-.menubtn {
-    position: absolute;
-    background-color: #2fff00;
-    border-radius: 100%;
-    padding: 5px;
+.btn-outline-dark:hover,.btn-outline-dark:active{
+    border-bottom: 2px solid #f3f2b6 !important;
+}
+div[selected]{
+    border-bottom: 2px solid #f3f2b6 !important;
 }
 
 .menubtnback {
     position: absolute;
     height: 50px;
+}
+.card-img-top:active,.card-img-top:hover{
+   cursor: pointer;
+}
+.contactfooter{
+
+}
+.contactfooter a{
+    color: #343a40!important;
+}
+.contactfooter a:hover{
+    color: #f3f2b6!important;
 }
 
