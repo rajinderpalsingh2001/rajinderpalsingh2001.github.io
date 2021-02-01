@@ -111,11 +111,14 @@ html {
 }
 
 .progress-bar {
-    background-image: url("../images/background.jpg");
+    background-image: linear-gradient(to left, #f3f2b6, #b7bc91, #82886d, #525749, #292a28);
+    /*background-image: url("../images/background.jpg");*/
 }
 
 .progress {
     border-radius: 50px !important;
+    border-left: 2px solid #f3f2b6;
+    border-bottom: 1px solid #f3f2b6;
     height: 20px !important;
 }
 
