@@ -44,16 +44,6 @@
 body {
     font-family: fontregular;
     background-color: #343a40 !important;
-    /*background-image: url('../images/background.jpg');*/
-
-    /*background-image: linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
-    /*background-image: -webkit-linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
-    /*background-image: -moz-linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
-    /*background-image: -o-linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*background-color: #3b4c5a !important;*/
-    /*color: #adefd1ff !important;*/
 }
 
 .container {
@@ -113,14 +103,17 @@ html {
 }
 
 .progress-bar {
-    background-image: linear-gradient(to left, #f3f2b6, #b7bc91, #82886d, #525749, #292a28);
+    /*background-image: linear-gradient(to left, #f3f2b6, #b7bc91, #82886d, #525749, #292a28);*/
+    background-color: #343a40 !important;
+    color:#f3f2b6!important;
+    font-family: fontbold;
     /*background-image: url("../images/background.jpg");*/
 }
 
 .progress {
+    background-color: #f3f2b6 !important;
     border-radius: 50px !important;
-    border-left: 2px solid #f3f2b6;
-    border-bottom: 1px solid #f3f2b6;
+    border: 1px solid #f3f2b6;
     height: 20px !important;
 }
 
