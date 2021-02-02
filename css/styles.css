@@ -43,7 +43,8 @@
 
 body {
     font-family: fontregular;
-    background-image: url('../images/background.jpg');
+    background-color: #343a40 !important;
+    /*background-image: url('../images/background.jpg');*/
 
     /*background-image: linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
     /*background-image: -webkit-linear-gradient(to right top, #ffffff, #e0d6ff, #c5acff, #ae80ff, #994ff9);*/
@@ -200,9 +201,9 @@ html {
 }
 
 .highlight {
-    background: url('../images/brushstroke.png');
+    background: url('../images/brushstroke.svg');
     background-repeat: no-repeat;
-    background-size: 100% 95%;
+    background-size: 100%;
     padding: 8px 0;
     color: white;
 }
@@ -217,6 +218,7 @@ html {
     height: 30px;
     transition: 0.4s;
 }
+
 .btn-outline-dark{
     border:2px solid #f3f2b6 !important;
     transition: 0.4s;
