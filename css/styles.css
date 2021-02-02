@@ -264,7 +264,7 @@ div[selected]{
     text-shadow: 5px 4px 3px rgba(52, 58, 64, 0.6);
     transition:0.2s;
 }
-.seeworking:hover{
+.seeworking:hover,.seeworking:active{
     background-color: #343a40;
     color:#f3f2b6;
     text-shadow: 5px 4px 3px rgba(243, 242, 182,0.6);
