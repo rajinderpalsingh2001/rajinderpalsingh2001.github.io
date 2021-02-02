@@ -206,12 +206,19 @@ html {
     padding: 5px;
     border-radius: 50px;
 }
+.form-group div{
+    color: #f3f2b6 !important;
+    margin: 1vw;
+}
 
 .btntechlogo {
     height: 30px;
     transition: 0.4s;
 }
-
+#ppbtn,#cpppbtn,#hcjpbtn,#dpbtn{
+    height:45px!important;
+    width: 130px !important;
+}
 .btn-outline-dark{
     border:2px solid #f3f2b6 !important;
     transition: 0.4s;
@@ -240,6 +247,7 @@ div[selected]{
 }
 .contactfooter a{
     color: #f3f2b6!important;
+    margin: 1vw;
 }
 .contactfooter a:hover{
     background: #f3f2b6!important;
@@ -273,4 +281,10 @@ div[selected]{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+.dropdown-divider{
+    position: relative;
+    left: 25%;
+    right:25%;
+    width: 40vw;
 }
