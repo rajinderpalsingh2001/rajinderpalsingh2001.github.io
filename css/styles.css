@@ -230,7 +230,7 @@ html {
 }
 
 div[selected]{
-    border: 0 solid black !important;
+    border: 0 !important;
     border-bottom: 2px solid #f3f2b6 !important;
     transition: 0.4s;
 }
