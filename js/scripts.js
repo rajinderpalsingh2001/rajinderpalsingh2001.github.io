@@ -51,3 +51,15 @@ $(".container").on('click', function () {
 function togglecloseafterclick() {
     $("#mainMenu").toggleClass('open');
 }
+function typewriter(text,elid){
+    var i=0;
+    var speed=50;
+    if (i < text.length) {
+        document.getElementById(elid).innerHTML += text.charAt(i);
+        text=text.slice(i+1,text.length);
+        i++;
+        setTimeout(function () {
+            typewriter(text,elid);
+        },speed);
+    }
+}

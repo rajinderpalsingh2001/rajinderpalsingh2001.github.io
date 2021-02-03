@@ -55,6 +55,7 @@
     <!--    banner-->
     <div class="row bannerbackground" data-aos="fade-down">
         <img class="img-fluid" src="images/banner.png" alt="">
+        <div class="float-left" id="bannertext"></div>
     </div>
     <!--    banner-->
     <!----------------------->
@@ -638,6 +639,8 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
+    var text="I am a Developer"
+    onload=typewriter(text,"bannertext");
 </script>
 <!--js files-->
 </body>
