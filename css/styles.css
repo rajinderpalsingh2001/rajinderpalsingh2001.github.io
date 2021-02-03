@@ -18,9 +18,15 @@
     src: url("../fonts/Product Sans Regular.ttf") format('truetype');
 }
 body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: fontregularb;
     letter-spacing: 2px;
     overflow-x: hidden !important;
+}
+.container{
+    /*padding: 10px !important;*/
 }
 div{
     font-family: fontregular;

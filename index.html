@@ -15,39 +15,39 @@
     <!--    stylesheets-->
 
     <!--    scrollbar-->
-<!--    <style>-->
-<!--        /* width */-->
-<!--        ::-webkit-scrollbar {-->
-<!--            width: 15px;-->
-<!--        }-->
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
 
-<!--        /* Track */-->
-<!--        ::-webkit-scrollbar-track {-->
-<!--            box-shadow: inset 0 0 5px grey;-->
-<!--            border-radius: 10px;-->
-<!--        }-->
+        /* Track */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
 
-<!--        /* Handle */-->
-<!--        ::-webkit-scrollbar-thumb {-->
-<!--            background: #a152fd;-->
-<!--            border-radius: 10px;-->
-<!--        }-->
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #a152fd;
+            border-radius: 10px;
+        }
 
-<!--        /* Handle on hover */-->
-<!--        ::-webkit-scrollbar-thumb:hover {-->
-<!--            background: #a152fd;-->
-<!--        }-->
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a152fd;
+        }
 
-<!--        .hidescroll::-webkit-scrollbar {-->
-<!--            display: none;-->
-<!--        }-->
+        .hidescroll::-webkit-scrollbar {
+            display: none;
+        }
 
-<!--        .hidescroll {-->
-<!--            -ms-overflow-style: none; /* IE and Edge */-->
-<!--            scrollbar-width: none; /* Firefox */-->
-<!--        }-->
+        .hidescroll {
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+        }
 
-<!--    </style>-->
+    </style>
     <!--    scrollbar-->
 </head>
 <body>
@@ -55,15 +55,16 @@
     <!--    banner-->
     <div class="row bannerbackground" data-aos="fade-down">
         <img class="img-fluid" src="images/banner.png" alt="">
-        <div class="float-left" id="bannertext"></div>
     </div>
+    <div class="text-left" id="bannertext"></div>
+
     <!--    banner-->
     <!----------------------->
     <!--    about-->
     <div class="headingtext" id="about" data-aos="fade-down"><span>A</span>bout</div>
     <div class="row">
         <div class="row">
-            <div class="col-md-7 text-center" data-aos="fade-right">
+            <div class="col-md-7 text-center" data-aos="fade-down">
                 <span style="font-family: fontitalic;font-size: x-large;">Hello!</span><br>
                 I am Rajinderpal Singh a B.Tech student from Guru Nanak Dev University,Amritsar majoring in Computer
                 Engineering
@@ -71,7 +72,7 @@
                 company goals.Dedicated to working hard to make positive
                 contributions.
             </div>
-            <div class="col-md-5" data-aos="fade-left">
+            <div class="col-md-5" data-aos="fade-down">
                 <div id="personalinfo">
                     <table class="table">
                         <tr>
@@ -189,24 +190,26 @@
                 </div>
             </div>
         </div>
-        <div class="headingtext" data-aos="fade-down"><span>O</span>ther <span>S</span>kills
-        </div>
-        <div id="otherskills">
-            <ul>
-                <li data-aos="fade-down">Bootstrap</li>
-                <li data-aos="fade-down">API call</li>
-                <li data-aos="fade-down">LaTex</li>
-                <li data-aos="fade-down">Microsoft Office</li>
-                <li data-aos="fade-down">Video Editing</li>
-            </ul>
-        </div>
     </div>
+    <div class="headingtext" data-aos="fade-down"><span>O</span>ther <span>S</span>kills
+    </div>
+    <div id="otherskills">
+        <ul>
+            <li data-aos="fade-down">Bootstrap</li>
+            <li data-aos="fade-down">API call</li>
+            <li data-aos="fade-down">LaTex</li>
+            <li data-aos="fade-down">Microsoft Office</li>
+            <li data-aos="fade-down">Video Editing</li>
+        </ul>
+    </div>
+
     <!--    skills-->
 
     <!---------------------->
 
     <!--    experiences-->
-    <div class="headingtext" id="experiencesandcertifications"  data-aos="fade-down"><span>E</span>xperiences & <span>C</span>ertifications
+    <div class="headingtext" id="experiencesandcertifications" data-aos="fade-down"><span>E</span>xperiences &
+        <span>C</span>ertifications
     </div>
     <div class="row justify-content-center">
         <div class="col-lg-4" data-aos="fade-down">
@@ -262,7 +265,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4"  data-aos="fade-down">
+        <div class="col-lg-4" data-aos="fade-down">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title text-center">Campus Ambassador</h5>
@@ -270,12 +273,12 @@
 
                     <p class="card-text">As a Campus Ambassador at Abhyuday IIT Bombay</p>
                 </div>
-<!--                <div class="card-footer text-center">-->
-<!--&lt;!&ndash;                    <a href="#" class="btn btn-light"></a>&ndash;&gt;-->
-<!--                </div>-->
+                <!--                <div class="card-footer text-center">-->
+                <!--&lt;!&ndash;                    <a href="#" class="btn btn-light"></a>&ndash;&gt;-->
+                <!--                </div>-->
             </div>
         </div>
-        <div class="col-lg-4"  data-aos="fade-down">
+        <div class="col-lg-4" data-aos="fade-down">
             <div class="card">
                 <!--                <div class="card-header">-->
                 <!--                    <ul class="nav nav-tabs card-header-tabs">-->
@@ -303,20 +306,24 @@
     <!---------------------->
 
     <!--Projects-->
-    <div class="headingtext" id="projects"  data-aos="fade-down"><span>P</span>rojects</div>
+    <div class="headingtext" id="projects" data-aos="fade-down"><span>P</span>rojects</div>
     <div class="row justify-content-center form-group">
-        <div  data-aos="fade-left" id="ppbtn" onclick="showprojects('#pythonprojects','ppbtn');" class="btn btn-outline-light"><img
+        <div data-aos="fade-left" id="ppbtn" onclick="showprojects('#pythonprojects','ppbtn');"
+             class="btn btn-outline-light"><img
                 class="btntechlogo"
                 src="images/techlogos/python.png"
                 alt="Python">+<img class="btntechlogo" src="images/techlogos/sql.png" alt="SQL"></div>
-        <div data-aos="fade-right" id="cpppbtn" onclick="showprojects('#cppprojects','cpppbtn');" class="btn btn-outline-light"><img
+        <div data-aos="fade-right" id="cpppbtn" onclick="showprojects('#cppprojects','cpppbtn');"
+             class="btn btn-outline-light"><img
                 src="images/techlogos/c++.png"
                 alt="C++" class="btntechlogo"></div>
-        <div data-aos="fade-left" id="hcjpbtn" onclick="showprojects('#htmlcssjsprojects','hcjpbtn');" class="btn btn-outline-light"><img
+        <div data-aos="fade-left" id="hcjpbtn" onclick="showprojects('#htmlcssjsprojects','hcjpbtn');"
+             class="btn btn-outline-light"><img
                 src="images/techlogos/html.png" alt="HTML" class="btntechlogo">+<img src="images/techlogos/css.png"
                                                                                      alt="CSS" class="btntechlogo">+<img
                 src="images/techlogos/JavaScript.png" alt="Js" class="btntechlogo"></div>
-        <div data-aos="fade-right" id="dpbtn" onclick="showprojects('#djangoprojects','dpbtn');" class="btn btn-outline-light"><img
+        <div data-aos="fade-right" id="dpbtn" onclick="showprojects('#djangoprojects','dpbtn');"
+             class="btn btn-outline-light"><img
                 src="images/techlogos/django.png" alt="Django" class="btntechlogo">+<img
                 src="images/techlogos/sql.png" alt="SQL" class="btntechlogo"></div>
     </div>
@@ -639,8 +646,8 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-    var text="I am a Developer"
-    onload=typewriter(text,"bannertext");
+    var text = "I am a Developer"
+    onload = typewriter(text, "bannertext");
 </script>
 <!--js files-->
 </body>
