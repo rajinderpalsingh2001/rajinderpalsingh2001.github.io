@@ -1,23 +1,16 @@
-// VanillaTilt.init(document.querySelectorAll(".card"), {
-//     max: 25,
-//     speed: 400,
-//     easing:"cubic-bezier(.05,.80,.60,.99)",
-//     perspective:500,
-//     transition:true
-// });
-window.onscroll = function () {
-    scrollFunction()
-};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        $('#header').addClass('onscroll');
-        $('#header').removeClass('noscroll');
-    } else {
-        $('#header').addClass('noscroll');
-        $('#header').removeClass('onscroll');
-    }
-}
+// window.onscroll = function () {
+//     scrollFunction()
+// };
+//
+// function scrollFunction() {
+//     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+//         $('#header').addClass('onscroll');
+//         $('#header').removeClass('noscroll');
+//     } else {
+//         $('#header').addClass('noscroll');
+//         $('#header').removeClass('onscroll');
+//     }
+// }
 
 function showprojects(id, btnid) {
     var elid = ['#pythonprojects', '#cppprojects', '#htmlcssjsprojects', '#djangoprojects'];
@@ -40,17 +33,6 @@ function showprojects(id, btnid) {
     }
 }
 
-$(".toggleMenu").on('click', function () {
-    $("#mainMenu").toggleClass('open');
-});
-
-$(".container").on('click', function () {
-    $("#mainMenu").removeClass('open');
-});
-
-function togglecloseafterclick() {
-    $("#mainMenu").toggleClass('open');
-}
 function typewriter(text,elid){
     var i=0;
     var speed=50;
@@ -63,3 +45,24 @@ function typewriter(text,elid){
         },speed);
     }
 }
+var app = document.getElementById('bannertext');
+
+var typewriter = new Typewriter(app, {
+    loop: true,
+    delay: 50,
+});
+
+typewriter
+    .pauseFor(1000)
+    .typeString('Hi! I am, <strong>Rajinderpal Singh</strong>')
+    .pauseFor(500)
+    .deleteChars(17)
+    .typeString('<strong>Open Source</strong> Enthusiast')
+    .pauseFor(500)
+    .deleteChars(22)
+    .typeString('<strong>Web Developer</strong>')
+    .pauseFor(500)
+    .deleteChars(13)
+    .typeString('<strong>Top Contributor</strong> at Winter of Code,2020')
+    .pauseFor(2000)
+    .start();

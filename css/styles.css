@@ -18,9 +18,6 @@
     src: url("../fonts/Product Sans Regular.ttf") format('truetype');
 }
 body{
-    background-image: url("../images/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: fontregularb;
     letter-spacing: 2px;
     overflow-x: hidden !important;
@@ -220,6 +217,6 @@ footer{
     color: #f8f9fa;
 }
 #bannertext{
-    font-family: fontbolditalic;
+    font-family: fontregular;
     font-size: 20px;
 }
