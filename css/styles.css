@@ -22,9 +22,6 @@ body{
     letter-spacing: 2px;
     overflow-x: hidden !important;
 }
-.container{
-    /*padding: 10px !important;*/
-}
 div{
     font-family: fontregular;
 }
@@ -219,4 +216,26 @@ footer{
 #bannertext{
     font-family: fontregular;
     font-size: 20px;
+}
+.resumebar{
+    background: #d7b6fd;
+    color: black;
+    padding:10px;
+    border-bottom-left-radius: 30px;
+}
+.resumebtn{
+    font-size: 20px;
+    font-family: fontitalic;
+    color:black;
+    transition: 0.3s;
+}
+.resumebtn:hover{
+    text-decoration: none;
+    color:black;
+    letter-spacing: 5px;
+    transition: 0.3s;
+}
+html{
+    overflow-x: hidden !important;
+    margin: 0;
 }
