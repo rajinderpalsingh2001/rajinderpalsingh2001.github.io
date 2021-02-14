@@ -50,19 +50,17 @@ var app = document.getElementById('bannertext');
 var typewriter = new Typewriter(app, {
     loop: true,
     delay: 50,
+    deleteSpeed: 5
 });
 
 typewriter
     .pauseFor(1000)
     .typeString('Hi! I am, <strong>Rajinderpal Singh</strong>')
-    .pauseFor(500)
+    .pauseFor(1000)
     .deleteChars(17)
+    .typeString('<strong style="font-size: 30px;">Top Contributor</strong> at Winter of Code,2020')
+    .pauseFor(1000)
+    .deleteChars(38)
     .typeString('<strong>Open Source</strong> Enthusiast')
-    .pauseFor(500)
-    .deleteChars(22)
-    .typeString('<strong>Web Developer</strong>')
-    .pauseFor(500)
-    .deleteChars(13)
-    .typeString('<strong>Top Contributor</strong> at Winter of Code,2020')
-    .pauseFor(2000)
+    .pauseFor(1000)
     .start();
