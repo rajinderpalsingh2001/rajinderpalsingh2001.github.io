@@ -58,7 +58,7 @@ typewriter
     .typeString('Hi! I am, <strong>Rajinderpal Singh</strong>')
     .pauseFor(1000)
     .deleteChars(17)
-    .typeString('<strong style="font-size: 30px;">Top Contributor</strong> at Winter of Code,2020')
+    .typeString('<strong style="font-size: 23px;">Top Contributor</strong> at Winter of Code,2020')
     .pauseFor(1000)
     .deleteChars(38)
     .typeString('<strong>Open Source</strong> Enthusiast')

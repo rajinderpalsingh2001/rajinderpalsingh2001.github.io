@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45ef58f9-1f0d-4648-a3b2-51ff3798ba56" name="Default Changelist" comment="Made Responsive" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ni0mycmbAduUqGLP9XrF9Hahlu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/new/MakesMathEasy/app/src/main/assets/www" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairish\Documents\GitHub\sairish2001.github.io\images" />
+      <recent name="C:\Users\Sairish\Documents\GitHub\sairish2001.github.io\images\certificates" />
+      <recent name="C:\Users\Sairish\Documents\GitHub\sairish2001.github.io\fonts" />
+      <recent name="C:\Users\Sairish\Documents\GitHub\sairish2001.github.io\images\techlogos" />
+      <recent name="C:\Users\Sairish\Documents\GitHub\sairish2001.github.io\images\techlogo" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45ef58f9-1f0d-4648-a3b2-51ff3798ba56" name="Default Changelist" comment="" />
+      <created>1611857766178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611857766178</updated>
+      <workItem from="1611857770674" duration="3785000" />
+      <workItem from="1611904475074" duration="16852000" />
+      <workItem from="1612020972814" duration="8116000" />
+      <workItem from="1612096185651" duration="1924000" />
+      <workItem from="1612101328703" duration="1554000" />
+      <workItem from="1612103477001" duration="1157000" />
+      <workItem from="1612105179006" duration="14732000" />
+      <workItem from="1612192850929" duration="11330000" />
+      <workItem from="1612273304353" duration="4954000" />
+      <workItem from="1612282069008" duration="5805000" />
+      <workItem from="1612328884270" duration="14516000" />
+      <workItem from="1612360487394" duration="660000" />
+      <workItem from="1612374235811" duration="5600000" />
+      <workItem from="1612426353902" duration="23000" />
+      <workItem from="1613070125019" duration="848000" />
+      <workItem from="1613215733129" duration="127000" />
+      <workItem from="1613316849200" duration="1688000" />
+    </task>
+    <task id="LOCAL-00001" summary="Made Responsive">
+      <created>1611858163711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611858163711</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made Responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made Responsive" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="55" key="FileChooserDialogImpl" timestamp="1612426374214">
+      <screen x="0" y="0" width="1140" height="601" />
+    </state>
+    <state x="349" y="55" key="FileChooserDialogImpl/0.0.1140.601@0.0.1140.601" timestamp="1612426374214" />
+    <state x="226" y="130" key="run.anything.popup" timestamp="1612338124643">
+      <screen x="0" y="0" width="1140" height="601" />
+    </state>
+    <state x="226" y="130" key="run.anything.popup/0.0.1140.601@0.0.1140.601" timestamp="1612338124643" />
+    <state x="232" y="-1" width="672" height="678" key="search.everywhere.popup" timestamp="1612194433737">
+      <screen x="0" y="0" width="1140" height="601" />
+    </state>
+    <state x="232" y="-1" width="672" height="678" key="search.everywhere.popup/0.0.1140.601@0.0.1140.601" timestamp="1612194433737" />
+  </component>
+</project>
