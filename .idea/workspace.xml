@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45ef58f9-1f0d-4648-a3b2-51ff3798ba56" name="Default Changelist" comment="Made Responsive" />
+    <list default="true" id="45ef58f9-1f0d-4648-a3b2-51ff3798ba56" name="Default Changelist" comment="Made Responsive">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/new/MakesMathEasy/app/src/main/assets/www" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -86,6 +88,8 @@
       <workItem from="1613070125019" duration="848000" />
       <workItem from="1613215733129" duration="127000" />
       <workItem from="1613316849200" duration="1688000" />
+      <workItem from="1615742033771" duration="2032000" />
+      <workItem from="1615833404048" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Made Responsive">
       <created>1611858163711</created>
