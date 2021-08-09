@@ -35,7 +35,7 @@ var techdata = {
     'SQL': 'images/techlogos/sql.png',
     'Django': 'images/techlogos/django.png',
     'Python': 'images/techlogos/python.png',
-    'JavaScript': 'images/techlogos/javascript.png',    
+    'JavaScript': 'images/techlogos/JavaScript.png',    
     'CSS3':'images/techlogos/css.png',
     'HTML5':'images/techlogos/html.png',
     'Bootstrap':'images/techlogos/bootstrap.png',
