@@ -111,7 +111,7 @@ var projectsdata = {
 
 var skillsdata = {
   "Full Stack Web": 90,
-  "Machine Learning": 70,
+  "Data Analytics": 70,
 };
 
 var techdata = {
