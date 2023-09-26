@@ -1,0 +1,50 @@
+.myCenterNav{
+    width: 70vw;
+    min-height: 100px;
+    padding: 10px 30px 10px 30px;
+    margin: 0 auto;
+    border-radius: 50px;    
+    background-color: whitesmoke;
+    color: #131e25;
+    position:relative ;
+    top: -50px;
+    box-shadow: 0 10px 10px #131e25 ;
+}
+.divider-border{    
+    border-right: 1px solid black;
+}
+
+.my-icon-block{
+    text-decoration: none;
+    color: #131e25;
+    font-size: 7px;
+    margin: 0 auto;
+    text-align: center !important;        
+}
+.my-icon-block:hover .my-icon{
+    font-size: 40px;
+    transition: .4s;
+    color: #ffa34d !important;
+}
+
+.my-icon-block span{
+    display: block;    
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #131e25;
+    color: whitesmoke;
+}
+.my-icon{
+    transition: .4s;
+    display: block;
+    font-size: 30px;    
+    color: #131e25; 
+    margin: 0 auto;
+}
+
+.my-description{
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    font-weight: bold;    
+}

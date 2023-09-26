@@ -1,0 +1,32 @@
+.my-container {
+  border-radius: 30px;
+  /* box-shadow: 0 10px 10px #131e25; */
+}
+
+.skill-header {
+  vertical-align: top;
+  text-align: left;  
+  width: 120px !important;  
+}
+.skill-header+td{
+  padding-bottom: 20px;    
+}
+.skill-category {
+  font-weight: bold;
+  font-size: 18px;
+  color: #131e25;
+  color: whitesmoke;  
+}
+
+.skill {
+  padding: 2px 6px 2px 6px;
+  display: inline-block;
+  border: 2px solid #ffa34d;
+  /* background-color: #ffa34d; */
+  color: whitesmoke;
+  /* font-weight: bold; */
+  margin: 5px;
+  border-radius: 50px;
+}
+
+

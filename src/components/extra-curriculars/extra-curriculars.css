@@ -1,0 +1,7 @@
+.list-group-item{
+    margin-bottom: 10px !important;
+    border-top-right-radius: 30px;
+    min-height: 50px;    
+    background-color: transparent;
+    padding: 10px !important;    
+}
