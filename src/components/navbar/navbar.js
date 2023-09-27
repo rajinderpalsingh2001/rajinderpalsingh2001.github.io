@@ -16,7 +16,7 @@ class Navbar extends React.Component {
           <div className="col-4 divider-border">
             <a className="my-icon-block" href={`mailto:${data.email}`}>
               <FaEnvelope className="my-icon" />
-              <span>{data.email}</span>
+              <span>Email</span>
             </a>
           </div>
           <div className="col-4 divider-border">
@@ -25,7 +25,7 @@ class Navbar extends React.Component {
               href={`https://github.com/${data.github}`}
             >
               <FaGithub className="my-icon" />
-              <span>{`@${data.github}`}</span>
+              <span>GitHub</span>
             </a>
           </div>
           <div className="col-4">
@@ -34,19 +34,19 @@ class Navbar extends React.Component {
               href={`https://www.linkedin.com/in/${data.linkedin}`}
             >
               <FaLinkedin className="my-icon" />
-              <span>{`@${data.linkedin}`}</span>
+              <span>LinkedIn</span>
             </a>
           </div>
 
-          <div id="typewriter" className="my-description">            
+          {/* <div id="typewriter" className="my-description">            
             <Typewriter            
               options={{                              
-                strings: ["Software Developer", "YouTuber" ,"Editor", ""],
+                strings: ["Software Engineer", "YouTuber" ,"Editor"],
                 autoStart: true,
                 loop: true,
               }}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     );

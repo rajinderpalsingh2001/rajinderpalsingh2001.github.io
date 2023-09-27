@@ -1,5 +1,5 @@
 .myCenterNav{
-    width: 70vw;
+    width: 80%;
     min-height: 100px;
     padding: 10px 30px 10px 30px;
     margin: 0 auto;
@@ -17,7 +17,7 @@
 .my-icon-block{
     text-decoration: none;
     color: #131e25;
-    font-size: 7px;
+    font-size: 12px;
     margin: 0 auto;
     text-align: center !important;        
 }
@@ -30,7 +30,7 @@
 .my-icon-block span{
     display: block;    
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 50% 50% 5px 5px;    
     background-color: #131e25;
     color: whitesmoke;
 }

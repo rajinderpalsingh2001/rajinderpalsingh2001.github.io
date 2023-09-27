@@ -53,6 +53,13 @@ var data = {
       date: "2018 - 2019",
       marks: "84.2%",
     },
+
+    {
+      institute: "Sri Guru Harkrishan Public School, Amritsar",
+      course: "10th",
+      date: "2016 - 2017",
+      marks: "82.4%",
+    },
   ],
 
   extraCurriculars: [
