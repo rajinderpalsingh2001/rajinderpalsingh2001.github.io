@@ -6,7 +6,7 @@ var data = {
 
   skills: {
     Languages: ["Python", "Java", "C++", "Dart", "SQL", "JavaScript", "Kotlin"],
-    Frontend: ["HTML", "CSS", "Bootstrap", "ReactJs", "Redux"],
+    Frontend: ["HTML", "CSS", "Bootstrap","jQuery", "ReactJs", "Redux"],
     Backend: ["REST API", "Firebase", "Firestore"],
     Frameworks: [
       "Django",
@@ -15,6 +15,7 @@ var data = {
       "Angular",
       "NodeJs",
       "Flutter",
+      "ASP.NET"
     ],
     Database: ["MySQL", "SQLite3", "RDBMS"],
     Tools: [
