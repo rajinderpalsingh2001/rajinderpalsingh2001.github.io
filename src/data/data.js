@@ -5,8 +5,8 @@ var data = {
   linkedin: "rajinderpalsingh2001",
 
   skills: {
-    Languages: ["Python", "Java", "C++", "Dart", "SQL", "JavaScript", "Kotlin"],
-    Frontend: ["HTML", "CSS", "Bootstrap","jQuery", "ReactJs", "Redux"],
+    Languages: ["Python", "Java", "C++", "Dart", "SQL", "JavaScript"],
+    Frontend: ["HTML", "CSS", "Bootstrap","jQuery", "ReactJs"],
     Backend: ["REST API", "Firebase", "Firestore"],
     Frameworks: [
       "Django",
@@ -14,8 +14,7 @@ var data = {
       "Spring Boot",
       "Angular",
       "NodeJs",
-      "Flutter",
-      "ASP.NET"
+      "Flutter"
     ],
     Database: ["MySQL", "SQLite3", "RDBMS"],
     Tools: [
