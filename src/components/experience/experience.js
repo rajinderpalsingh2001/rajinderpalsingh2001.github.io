@@ -18,7 +18,7 @@ class Experience extends React.Component {
               <h5 className="mb-1">
                 {experience.role} | <i>{experience.companyName}</i>
               </h5>
-              <small className="text-grey" style={{width:"150px", textAlign: "right" }}>{experience.date}</small>
+              <small className="text-grey" style={{width:"200px", textAlign: "right" }}>{experience.date}</small>
             </div>
             <p className="mb-1 text-grey">{experience.location}</p>
           </div>

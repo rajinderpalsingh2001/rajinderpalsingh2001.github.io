@@ -5,18 +5,17 @@ var data = {
   linkedin: "rajinderpalsingh2001",
 
   skills: {
-    Languages: ["Python", "Java", "C++", "Dart", "SQL", "JavaScript"],
+    Languages: ["Python", "Java", "Dart", "SQL", "JavaScript", "TypeScript"],
     Frontend: ["HTML", "CSS", "Bootstrap","jQuery", "ReactJs"],
-    Backend: ["REST API", "Firebase", "Firestore"],
+    Backend: ["REST API", "Firebase", "Supabase", "AppWrite"],
     Frameworks: [
-      "Django",
+      "Spring Boot",    
       "Spring MVC",
-      "Spring Boot",
+      "Flutter",
       "Angular",
       "NodeJs",
-      "Flutter"
     ],
-    Database: ["MySQL", "SQLite3", "RDBMS"],
+    Database: ["MySQL", "SQLite", "MongoDB"],
     Tools: [
       "GitHub",
       "VSCode",
@@ -32,9 +31,21 @@ var data = {
 
   experiences: [
     {
-      role: "Associate Software Engineer",
+      role: "Engineer",
       companyName: "Nagarro",
-      date: "March, 2023 - Present",
+      date: "April, 2025 - Present",
+      location: "Gurugram, India",
+    },
+    {
+      role: "Associate Engineer",
+      companyName: "Nagarro",
+      date: "February, 2024 - April, 2025",
+      location: "Gurugram, India",
+    },
+    {
+      role: "Associate Engineer Trainee",
+      companyName: "Nagarro",
+      date: "March, 2023 - February, 2024",
       location: "Gurugram, India",
     },
   ],
@@ -75,7 +86,7 @@ var data = {
       position: "Project Admin",
       date: "April, 2021 - August, 2021",
       description:
-        "I served as the Project Admin for ”Makes Math Easy,” a project that achieved top contributions during the specified period, with over 2,000 merged PRs. This project also got global recognition",
+        "I served as the Project Admin for 'Makes Math Easy', a project that achieved top contributions during the specified period, with over 2,000 merged PRs. This project also got global recognition",
     },
     {
       title: "Winter of Code'20",
